@@ -1,5 +1,5 @@
+import style from './PostContainer.module.scss';
 import { PostDataType, PostTypeTextMap } from '@/constants/types/posts';
-import style from './postContainer.module.scss';
 
 export const PostContainer = ({
   id,

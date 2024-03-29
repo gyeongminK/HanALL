@@ -1,10 +1,10 @@
+import style from './PostListTemplate.module.scss';
 import { PostContainer } from '@/components/organisms/containers/PostContainer';
 import {
   PostDataType,
   PostTypeEnum,
   PostTypeTextMap,
 } from '@/constants/types/posts';
-import style from './postListTemplate.module.scss';
 
 interface PostListPropType {
   posts?: PostDataType[];
